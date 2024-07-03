@@ -1,0 +1,26 @@
+var g_data = {
+c1148:[4,'coverpoint_wr_enb',[],'Coverpoint for write enable which will check transition of from 0 to 1 and 1 to 0','1147',2,1,'\\/pkg::func_covg::cvg_grp ','1130','/pkg/func_covg',[[],[0,'1','20',,'wr_toggle_0to1'],[0,'1','17',,'wr_toggle_1to0']],[]],
+c1149:[4,'coverpoint_rd_enb',[],'Coverpoint for read enable which will check transition of from 0 to 1 and 1 to 0','1147',2,1,'\\/pkg::func_covg::cvg_grp ','1130','/pkg/func_covg',[[],[0,'1','11',,'rd_toggle_0to1'],[0,'1','2',,'rd_toggle_1to0']],[]],
+c1150:[4,'coverpoint_wr_data',[],'Coverpoint for write data which will devide data in 3 ranges','1147',2,1,'\\/pkg::func_covg::cvg_grp ','1130','/pkg/func_covg',[[],[0,'1','126',,'range[0]'],[0,'1','68',,'range[1]'],[0,'1','70',,'range[2]']],[]],
+c1151:[4,'coverpoint_rd_data',[],'Coverpoint for read data which will devide data in 3 ranges','1147',2,1,'\\/pkg::func_covg::cvg_grp ','1130','/pkg/func_covg',[[],[0,'1','68',,'range[0]'],[0,'1','59',,'range[1]'],[0,'1','36',,'range[2]']],[]],
+c1152:[4,'coverpoint_full',[],'Coverpoint for full flag which will check transition of from 0 to 1 and 1 to 0','1147',2,1,'\\/pkg::func_covg::cvg_grp ','1130','/pkg/func_covg',[[],[0,'1','5',,'full_toggle[0=>1=>0]']],[]],
+c1153:[4,'coverpoint_empty',[],'Coverpoint for empty flag which will check transition of from 0 to 1 and 1 to 0','1147',2,1,'\\/pkg::func_covg::cvg_grp ','1130','/pkg/func_covg',[[],[0,'1','10',,'empty_toggle[0=>1=>0]']],[]],
+c1154:[4,'coverpoint_half',[],'Coverpoint for half flag which will check transition of from 0 to 1 and 1 to 0','1147',2,1,'\\/pkg::func_covg::cvg_grp ','1130','/pkg/func_covg',[[],[0,'1','13',,'half_toggle[0=>1=>0]']],[]],
+c1155:[4,'coverpoint_overflow',[],'Coverpoint for overflow flag which will check transition of from 0 to 1 and 1 to 0','1147',2,1,'\\/pkg::func_covg::cvg_grp ','1130','/pkg/func_covg',[[],[0,'1','5',,'overflow_toggle[0=>1=>0]']],[]],
+c1156:[4,'coverpoint_underflow',[],'Coverpoint for underflow flag which will check transition of from 0 to 1 and 1 to 0','1147',2,1,'\\/pkg::func_covg::cvg_grp ','1130','/pkg/func_covg',[[],[0,'1','10',,'underflow_toggle[0=>1=>0]']],[]],
+c1157:[4,'coverpoint_reset_check',[],'Coverpoint to check the reset using wildcard bins','1147',2,1,'\\/pkg::func_covg::cvg_grp ','1130','/pkg/func_covg',[[],[0,'1','10',,'rst_bin']],[]],
+c1158:[4,'coverpoint_back2back',[],'Coverpoint to check back to back write read, back to back write and back to back read','1147',2,1,'\\/pkg::func_covg::cvg_grp ','1130','/pkg/func_covg',[[],[0,'1','4',,'bck2bck_wr'],[0,'1','113',,'bck2bck_w'],[0,'1','104',,'bck2bck_r']],[]],
+c1647:[4,'coverpoint_wr_enb',[],'Coverpoint for write enable which will check transition of from 0 to 1 and 1 to 0','1646',2,1,'\\/pkg::func_covg::cvg_grp ','1629','work.pkg::func_covg',[[],[0,'1','20',,'wr_toggle_0to1'],[0,'1','17',,'wr_toggle_1to0']],[]],
+c1648:[4,'coverpoint_rd_enb',[],'Coverpoint for read enable which will check transition of from 0 to 1 and 1 to 0','1646',2,1,'\\/pkg::func_covg::cvg_grp ','1629','work.pkg::func_covg',[[],[0,'1','11',,'rd_toggle_0to1'],[0,'1','2',,'rd_toggle_1to0']],[]],
+c1649:[4,'coverpoint_wr_data',[],'Coverpoint for write data which will devide data in 3 ranges','1646',2,1,'\\/pkg::func_covg::cvg_grp ','1629','work.pkg::func_covg',[[],[0,'1','126',,'range[0]'],[0,'1','68',,'range[1]'],[0,'1','70',,'range[2]']],[]],
+c1650:[4,'coverpoint_rd_data',[],'Coverpoint for read data which will devide data in 3 ranges','1646',2,1,'\\/pkg::func_covg::cvg_grp ','1629','work.pkg::func_covg',[[],[0,'1','68',,'range[0]'],[0,'1','59',,'range[1]'],[0,'1','36',,'range[2]']],[]],
+c1651:[4,'coverpoint_full',[],'Coverpoint for full flag which will check transition of from 0 to 1 and 1 to 0','1646',2,1,'\\/pkg::func_covg::cvg_grp ','1629','work.pkg::func_covg',[[],[0,'1','5',,'full_toggle[0=>1=>0]']],[]],
+c1652:[4,'coverpoint_empty',[],'Coverpoint for empty flag which will check transition of from 0 to 1 and 1 to 0','1646',2,1,'\\/pkg::func_covg::cvg_grp ','1629','work.pkg::func_covg',[[],[0,'1','10',,'empty_toggle[0=>1=>0]']],[]],
+c1653:[4,'coverpoint_half',[],'Coverpoint for half flag which will check transition of from 0 to 1 and 1 to 0','1646',2,1,'\\/pkg::func_covg::cvg_grp ','1629','work.pkg::func_covg',[[],[0,'1','13',,'half_toggle[0=>1=>0]']],[]],
+c1654:[4,'coverpoint_overflow',[],'Coverpoint for overflow flag which will check transition of from 0 to 1 and 1 to 0','1646',2,1,'\\/pkg::func_covg::cvg_grp ','1629','work.pkg::func_covg',[[],[0,'1','5',,'overflow_toggle[0=>1=>0]']],[]],
+c1655:[4,'coverpoint_underflow',[],'Coverpoint for underflow flag which will check transition of from 0 to 1 and 1 to 0','1646',2,1,'\\/pkg::func_covg::cvg_grp ','1629','work.pkg::func_covg',[[],[0,'1','10',,'underflow_toggle[0=>1=>0]']],[]],
+c1656:[4,'coverpoint_reset_check',[],'Coverpoint to check the reset using wildcard bins','1646',2,1,'\\/pkg::func_covg::cvg_grp ','1629','work.pkg::func_covg',[[],[0,'1','10',,'rst_bin']],[]],
+c1657:[4,'coverpoint_back2back',[],'Coverpoint to check back to back write read, back to back write and back to back read','1646',2,1,'\\/pkg::func_covg::cvg_grp ','1629','work.pkg::func_covg',[[],[0,'1','4',,'bck2bck_wr'],[0,'1','113',,'bck2bck_w'],[0,'1','104',,'bck2bck_r']],[]],
+dummyEnd:0
+};
+processCovergroupsData(g_data);
